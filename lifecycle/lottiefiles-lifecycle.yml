@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/LottieFiles + https://status.lottiefiles.com
+versioning:
+  scheme: semver
+  model: per-package (each dotLottie runtime versioned independently)
+  release_notes: https://github.com/LottieFiles/dotlottie-web/releases
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: >-
+    No formal, dated deprecation/sunset policy is published. Superseded libraries are
+    marked "archived" on GitHub and npm (e.g. lottie-interactivity, lottie-player web
+    component) in favor of the Rust+WASM dotLottie players.
+status_page: https://status.lottiefiles.com
+sla:
+  url: null
+deprecated_packages:
+  - "@lottiefiles/lottie-interactivity"   # archived on GitHub
+  - "@lottiefiles/lottie-player"          # legacy player, superseded by dotlottie-wc

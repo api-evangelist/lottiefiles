@@ -1,0 +1,59 @@
+generated: '2026-07-20'
+method: searched
+source: https://developers.lottiefiles.com/docs/ + https://github.com/LottieFiles/dotlottie-web
+notes: >-
+  LottieFiles' primary developer surface is a set of client-side, embeddable
+  animation-rendering components rather than a hosted API. These are custom elements
+  (web components) and framework components that drop a Lottie/dotLottie animation
+  into any page or app. Distinct from server SDKs; the loader libraries live in
+  packages/lottiefiles-packages.yml.
+families:
+  - family: Web Components (custom elements)
+    description: Framework-agnostic custom elements you register once and use as HTML tags.
+    loader: "@lottiefiles/dotlottie-web (dotlottie-wc), @lottiefiles/lottie-player"
+    components:
+      - name: dotlottie-wc
+        kind: custom-element
+        tag: <dotlottie-wc>
+        package: "@lottiefiles/dotlottie-web"
+        description: Self-contained web component that renders .lottie / .json animations, powered by Rust+WASM.
+      - name: lottie-player
+        kind: custom-element
+        tag: <lottie-player>
+        package: "@lottiefiles/lottie-player"
+        description: Legacy Lottie animation & Telegram Sticker player web component.
+  - family: Framework components
+    description: Idiomatic wrapper components for the major front-end frameworks, all wrapping dotlottie-web.
+    components:
+      - name: DotLottieReact
+        kind: react-component
+        package: "@lottiefiles/dotlottie-react"
+      - name: DotLottieVue
+        kind: vue-component
+        package: "@lottiefiles/dotlottie-vue"
+      - name: DotLottieSvelte
+        kind: svelte-component
+        package: "@lottiefiles/dotlottie-svelte"
+      - name: DotLottieSolid
+        kind: solid-component
+        package: "@lottiefiles/dotlottie-solid"
+      - name: DotLottieReactNative
+        kind: react-native-component
+        package: "@lottiefiles/dotlottie-react-native"
+  - family: Design-tool & platform plugins
+    description: >-
+      Embedded LottieFiles library/workspace surfaces that run inside third-party host
+      applications (confirmed via docs.lottiefiles.com/en/integrations).
+    components:
+      - name: After Effects plugin
+        host: Adobe After Effects
+      - name: Figma plugin
+        host: Figma
+      - name: Canva app
+        host: Canva
+      - name: VSCode extension
+        host: Visual Studio Code
+      - name: Framer plugin
+        host: Framer
+      - name: Webflow app
+        host: Webflow

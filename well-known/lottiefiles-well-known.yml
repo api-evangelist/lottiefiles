@@ -1,0 +1,45 @@
+generated: '2026-07-20'
+method: probed
+source: live GET probes 2026-07-20
+notes: >-
+  No /.well-known/ discovery documents are published. lottiefiles.com is behind
+  Cloudflare and returns 403 to automated clients for every probed path (bot challenge,
+  not a served document); developers. and docs. hosts return clean 404s. No 200 was
+  returned for any path, so no raw well-known files were saved.
+hosts:
+  - host: https://lottiefiles.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 403
+      - path: /.well-known/openid-configuration
+        status: 403
+      - path: /.well-known/oauth-authorization-server
+        status: 403
+      - path: /.well-known/api-catalog
+        status: 403
+      - path: /.well-known/ai-plugin.json
+        status: 403
+  - host: https://developers.lottiefiles.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://docs.lottiefiles.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404

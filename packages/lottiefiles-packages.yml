@@ -1,0 +1,119 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/org/lottiefiles + https://github.com/LottieFiles
+notes: >-
+  LottieFiles ships no server-side HTTP API. Its developer surface is a family of
+  first-party client runtimes ("dotLottie players") that render Lottie / dotLottie
+  animations across web and native platforms. The JavaScript/web family is published
+  under the @lottiefiles npm org (names + latest versions verified against
+  registry.npmjs.org on 2026-07-20). Native players are published from the LottieFiles
+  GitHub org; their repos are confirmed, exact registry coordinates are referenced to
+  the repo rather than asserted.
+packages:
+  # --- Web / JavaScript family (verified on npm) ---
+  - language: javascript
+    registry: npm
+    name: "@lottiefiles/dotlottie-web"
+    version: 0.78.0
+    url: https://www.npmjs.com/package/@lottiefiles/dotlottie-web
+    install: npm install @lottiefiles/dotlottie-web
+    description: High-performance Lottie & dotLottie web player powered by Rust + WASM.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@lottiefiles/dotlottie-react"
+    version: 0.19.10
+    url: https://www.npmjs.com/package/@lottiefiles/dotlottie-react
+    install: npm install @lottiefiles/dotlottie-react
+    description: React wrapper around the dotlottie-web library.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@lottiefiles/dotlottie-vue"
+    version: 0.11.21
+    url: https://www.npmjs.com/package/@lottiefiles/dotlottie-vue
+    install: npm install @lottiefiles/dotlottie-vue
+    description: Vue wrapper around the dotlottie-web library.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@lottiefiles/dotlottie-svelte"
+    version: 0.10.9
+    url: https://www.npmjs.com/package/@lottiefiles/dotlottie-svelte
+    install: npm install @lottiefiles/dotlottie-svelte
+    description: Svelte component wrapper around the dotlottie-web library.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@lottiefiles/dotlottie-solid"
+    version: 0.6.21
+    url: https://www.npmjs.com/package/@lottiefiles/dotlottie-solid
+    install: npm install @lottiefiles/dotlottie-solid
+    description: Solid wrapper around the dotlottie-web library.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@lottiefiles/dotlottie-react-native"
+    version: 0.11.1
+    url: https://www.npmjs.com/package/@lottiefiles/dotlottie-react-native
+    install: npm install @lottiefiles/dotlottie-react-native
+    description: dotLottie player for React Native (Expo-ready, New Architecture).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@lottiefiles/lottie-player"
+    version: 2.0.12
+    url: https://www.npmjs.com/package/@lottiefiles/lottie-player
+    install: npm install @lottiefiles/lottie-player
+    description: Lottie animation and Telegram Sticker player web components.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@lottiefiles/react-lottie-player"
+    version: 3.6.0
+    url: https://www.npmjs.com/package/@lottiefiles/react-lottie-player
+    install: npm install @lottiefiles/react-lottie-player
+    description: Lottie web player wrapper for React.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@lottiefiles/relottie"
+    version: 1.16.0
+    url: https://www.npmjs.com/package/@lottiefiles/relottie
+    install: npm install @lottiefiles/relottie
+    description: Unified processor for parsing and serializing Lottie, powered by plugins.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@lottiefiles/lottie-interactivity"
+    version: 1.6.2
+    url: https://www.npmjs.com/package/@lottiefiles/lottie-interactivity
+    install: npm install @lottiefiles/lottie-interactivity
+    description: Effects & interactivity library paired with the Lottie player (archived).
+    official: true
+    status: archived
+  # --- Native players (GitHub repos verified; install via each repo's README) ---
+  - language: swift
+    registry: swift-package-manager
+    name: dotlottie-ios
+    url: https://github.com/LottieFiles/dotlottie-ios
+    description: Official dotLottie player for Apple platforms (iOS, macOS, tvOS, watchOS, visionOS) — SwiftUI & UIKit, Rust-powered core.
+    official: true
+  - language: kotlin
+    registry: maven
+    name: dotlottie-android
+    url: https://github.com/LottieFiles/dotlottie-android
+    description: Official dotLottie player for Android (Jetpack Compose & Views), Rust-powered core.
+    official: true
+  - language: dart
+    registry: pub.dev
+    name: dotlottie-flutter
+    url: https://github.com/LottieFiles/dotlottie-flutter
+    description: Official Lottie & dotLottie player for Flutter (iOS, Android, macOS, Windows, Linux, Web).
+    official: true
+  - language: rust
+    registry: crates.io
+    name: dotlottie-rs
+    url: https://github.com/LottieFiles/dotlottie-rs
+    description: High-performance Lottie & dotLottie player core in Rust, with Android/iOS/Web (WASM) and C/C++ bindings.
+    official: true

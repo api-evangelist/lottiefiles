@@ -1,0 +1,31 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/LottieFiles/dotlottie-web/releases
+scheme: semver
+notes: >-
+  LottieFiles versions each runtime independently as a semver npm/native package;
+  release notes are published as GitHub Releases (and per-repo CHANGELOG.md) on the
+  LottieFiles org, not as a single unified product changelog. The snapshot below records
+  the current published version of each first-party package as verified against
+  registry.npmjs.org on 2026-07-20. Per-release dates are not asserted here — consult
+  the linked GitHub Releases for dated entries.
+release_notes: https://github.com/LottieFiles/dotlottie-web/releases
+current_versions:
+  - package: "@lottiefiles/dotlottie-web"
+    version: 0.78.0
+  - package: "@lottiefiles/dotlottie-react"
+    version: 0.19.10
+  - package: "@lottiefiles/dotlottie-vue"
+    version: 0.11.21
+  - package: "@lottiefiles/dotlottie-svelte"
+    version: 0.10.9
+  - package: "@lottiefiles/dotlottie-solid"
+    version: 0.6.21
+  - package: "@lottiefiles/dotlottie-react-native"
+    version: 0.11.1
+  - package: "@lottiefiles/lottie-player"
+    version: 2.0.12
+  - package: "@lottiefiles/react-lottie-player"
+    version: 3.6.0
+  - package: "@lottiefiles/relottie"
+    version: 1.16.0
