@@ -1,8 +1,26 @@
 aid: lottiefiles
 name: LottieFiles
-description: LottieFiles is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  LottieFiles is the platform and open-source runtime ecosystem for Lottie and dotLottie
+  — a lightweight, JSON-based vector animation format that ships motion on any platform as
+  easily as a static asset. Rather than a hosted HTTP API, LottieFiles' developer surface is
+  a family of first-party, Rust+WASM-powered "dotLottie" players and framework/native
+  components (Web, React, Vue, Svelte, Solid, React Native, iOS, Android, Flutter), plus
+  embeddable web components and design-tool plugins for Adobe After Effects, Figma, Canva,
+  VSCode, Framer and Webflow, letting developers render and control animations client-side.
 url: https://raw.githubusercontent.com/api-evangelist/lottiefiles/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/LottieFiles.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Animation
+- Motion Graphics
+- Design
+- Developer Tools
+- SDK
+- Web Components
+- Open Source
+- Lottie
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,38 @@ maintainers:
 common:
 - type: Website
   url: https://lottiefiles.com
+- type: DeveloperPortal
+  url: https://developers.lottiefiles.com
+- type: Documentation
+  url: https://docs.lottiefiles.com/en
+- type: GettingStarted
+  url: https://docs.lottiefiles.com/en/runtimes
+- type: Support
+  url: https://help.lottiefiles.com
+- type: Blog
+  url: https://lottiefiles.com/blog
+- type: GitHubOrganization
+  url: https://github.com/LottieFiles
+- type: StatusPage
+  url: https://status.lottiefiles.com
+- type: Packages
+  url: packages/lottiefiles-packages.yml
+- type: SDKs
+  url: packages/lottiefiles-packages.yml
+- type: Components
+  url: components/lottiefiles-components.yml
+- type: ChangeLog
+  url: changelog/lottiefiles-changelog.yml
+- type: Lifecycle
+  url: lifecycle/lottiefiles-lifecycle.yml
+- type: WellKnown
+  url: well-known/lottiefiles-well-known.yml
+- type: DomainSecurity
+  url: security/lottiefiles-domain-security.yml
+- type: LLMsTxt
+  url: llms/lottiefiles-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
