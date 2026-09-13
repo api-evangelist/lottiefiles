@@ -1,0 +1,62 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "LottieFiles",
+    "identifier": "did:web:lottiefiles.com",
+    "documentationUrl": "https://docs.lottiefiles.com"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:lottiefiles.com:mcp:lottiefiles",
+      "displayName": "LottieFiles MCP Server",
+      "type": "application/mcp-server-card+json",
+      "url": "https://docs.lottiefiles.com/.well-known/mcp/server-card.json",
+      "description": "Search and manage Lottie animations through the authenticated LottieFiles MCP server.",
+      "capabilities": [
+        "operations_list",
+        "schema_search",
+        "schema_details",
+        "graphql_execute"
+      ],
+      "representativeQueries": [
+        "find a loading spinner lottie animation",
+        "search public lottie animations by keyword",
+        "get animation details and download urls",
+        "manage animations in my lottiefiles workspace"
+      ]
+    },
+    {
+      "identifier": "urn:air:lottiefiles.com:api:graphql",
+      "displayName": "LottieFiles GraphQL API",
+      "type": "application/graphql",
+      "url": "https://graphql.lottiefiles.com",
+      "description": "Public GraphQL API for LottieFiles data. Explore the schema through the MCP server.",
+      "representativeQueries": [
+        "query lottiefiles animations with graphql",
+        "fetch animation metadata programmatically"
+      ]
+    },
+    {
+      "identifier": "urn:air:lottiefiles.com:skills:docs",
+      "displayName": "LottieFiles Docs Agent Skills",
+      "type": "application/agent-skills+json",
+      "url": "https://docs.lottiefiles.com/.well-known/agent-skills/index.json",
+      "description": "Skills that help agents embed Lottie animations and use the LottieFiles MCP server.",
+      "representativeQueries": [
+        "how to embed a lottie player on a webpage",
+        "connect an assistant to the lottiefiles mcp server"
+      ]
+    },
+    {
+      "identifier": "urn:air:lottiefiles.com:docs:llms-txt",
+      "displayName": "LottieFiles Docs llms.txt Index",
+      "type": "text/plain",
+      "url": "https://docs.lottiefiles.com/llms.txt",
+      "description": "Curated index of LottieFiles developer documentation for language models.",
+      "representativeQueries": [
+        "lottiefiles developer documentation overview",
+        "where to find lottie and dotlottie format specs"
+      ]
+    }
+  ]
+}
