@@ -28,3 +28,115 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: lottiefiles-npm-registry
+  label: npm registry
+  partner: npm
+  partner_name: npm registry
+  category: official SDK (JavaScript/TypeScript)
+  type: register
+  channel: package-registry
+  evidence: https://www.npmjs.com/package/@lottiefiles/dotlottie-react
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: '@lottiefiles/dotlottie-react'
+      version: 0.20.0
+      released: '2026-10-06'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@lottiefiles/dotlottie-react
+      repo_leg: domain:lottiefiles.com
+      publisher_leg: email:lottiefiles.com
+      matched_by: domain
+    - name: '@lottiefiles/dotlottie-react-native'
+      version: 0.12.1
+      released: '2026-08-04'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@lottiefiles/dotlottie-react-native
+      repo_leg: domain:lottiefiles.com
+      publisher_leg: email:lottiefiles.com
+      matched_by: domain
+    - name: '@lottiefiles/dotlottie-solid'
+      version: 0.6.28
+      released: '2026-10-06'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@lottiefiles/dotlottie-solid
+      repo_leg: domain:lottiefiles.com
+      publisher_leg: email:lottiefiles.com
+      matched_by: domain
+    - name: '@lottiefiles/dotlottie-svelte'
+      version: 0.10.16
+      released: '2026-10-06'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@lottiefiles/dotlottie-svelte
+      repo_leg: domain:lottiefiles.com
+      publisher_leg: email:lottiefiles.com
+      matched_by: domain
+    - name: '@lottiefiles/dotlottie-vue'
+      version: 0.11.28
+      released: '2026-10-06'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@lottiefiles/dotlottie-vue
+      repo_leg: domain:lottiefiles.com
+      publisher_leg: email:lottiefiles.com
+      matched_by: domain
+    - name: '@lottiefiles/dotlottie-web'
+      version: 0.81.0
+      released: '2026-10-06'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@lottiefiles/dotlottie-web
+      repo_leg: domain:lottiefiles.com
+      publisher_leg: email:lottiefiles.com
+      matched_by: domain
+    - name: '@lottiefiles/lottie-interactivity'
+      version: 1.6.2
+      released: '2026-08-04'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@lottiefiles/lottie-interactivity
+      repo_leg: github-org:lottiefiles
+      publisher_leg: email:lottiefiles.com
+      matched_by: domain
+    - name: '@lottiefiles/lottie-player'
+      version: 2.0.12
+      released: '2026-08-04'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@lottiefiles/lottie-player
+      repo_leg: domain:lottiefiles.com
+      publisher_leg: email:lottiefiles.com
+      matched_by: domain
+    - name: '@lottiefiles/react-lottie-player'
+      version: 3.6.0
+      released: '2026-08-04'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@lottiefiles/react-lottie-player
+      repo_leg: github-org:lottiefiles
+      publisher_leg: email:lottiefiles.com
+      matched_by: domain
+    - name: '@lottiefiles/relottie'
+      version: 1.16.0
+      released: '2026-08-04'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@lottiefiles/relottie
+      repo_leg: github-org:lottiefiles
+      publisher_leg: email:lottiefiles.com
+      matched_by: domain
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
