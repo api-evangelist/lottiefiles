@@ -21,6 +21,8 @@ checked:
 - https://www.antler.co/portfolio
 - https://www.techstars.com/portfolio
 - https://www.ycombinator.com/companies
+- adobe-creative-cloud/integrations/adobe-creative-cloud-integration-edges.yml
+- adobe-premiere/integrations/adobe-premiere-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Visual Studio Code Marketplace
@@ -41,23 +43,6 @@ edges:
   - Verified domain
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
-- partner_name: WordPress (own)
-  partner: wordpress
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://wordpress.org/plugins/lottiefiles/
-  mirror_of: wordpress/integrations/wordpress-integration-edges.yml
-  apps:
-  - LottieFiles
-  listing_count: 1
-  detected: '2026-10-15'
-  detected_by: mirror-platform-listings.py
-  category: WordPress plugin
 - partner_name: npm registry
   partner: npm
   partner_match: register
@@ -291,5 +276,56 @@ edges:
     year: '2019'
   detected_by: sweep-accelerator-portfolios.py
   first_seen: '2026-10-21'
+- partner_name: WordPress (own)
+  partner: wordpress
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://wordpress.org/plugins/lottiefiles/
+  mirror_of: wordpress/integrations/wordpress-integration-edges.yml
+  apps:
+  - LottieFiles
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  category: WordPress plugin
+- partner_name: Adobe Creative Cloud (own)
+  partner: adobe-creative-cloud
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://exchange.adobe.com/apps/cc/204088/export-lottie-animations-in-after-effects
+  mirror_of: adobe-creative-cloud/integrations/adobe-creative-cloud-integration-edges.yml
+  apps:
+  - Export Lottie Animations in After Effects
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Adobe Exchange Creative Cloud listing (After Effects)
+- partner_name: Adobe Premiere Pro (own)
+  partner: adobe-premiere
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://exchange.adobe.com/apps/cc/202173/lottiefiles-for-premiere-pro
+  mirror_of: adobe-premiere/integrations/adobe-premiere-integration-edges.yml
+  apps:
+  - LottieFiles for Premiere Pro
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Adobe Exchange Creative Cloud listing (Premiere Pro)
 source:
 - https://marketplace.visualstudio.com/vscode

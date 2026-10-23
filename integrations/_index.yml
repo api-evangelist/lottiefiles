@@ -15,19 +15,6 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
-- slug: lottiefiles-wordpress-own
-  label: WordPress (own)
-  partner: wordpress
-  partner_name: WordPress (own)
-  category: WordPress plugin
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://wordpress.org/plugins/lottiefiles/
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
 - slug: lottiefiles-npm-registry
   label: npm registry
   partner: npm
@@ -230,5 +217,44 @@
     detected_by: sweep-accelerator-portfolios.py
     detected: '2026-10-21'
     year: '2019'
+  status: not-a-workflow
+  arazzo: null
+- slug: lottiefiles-wordpress-own
+  label: WordPress (own)
+  partner: wordpress
+  partner_name: WordPress (own)
+  category: WordPress plugin
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://wordpress.org/plugins/lottiefiles/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: lottiefiles-adobe-creative-cloud-own
+  label: Adobe Creative Cloud (own)
+  partner: adobe-creative-cloud
+  partner_name: Adobe Creative Cloud (own)
+  category: Adobe Exchange Creative Cloud listing (After Effects)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/cc/204088/export-lottie-animations-in-after-effects
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: lottiefiles-adobe-premiere-pro-own
+  label: Adobe Premiere Pro (own)
+  partner: adobe-premiere
+  partner_name: Adobe Premiere Pro (own)
+  category: Adobe Exchange Creative Cloud listing (Premiere Pro)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/cc/202173/lottiefiles-for-premiere-pro
+  source: edge
+  relationship: platform-app
   status: not-a-workflow
   arazzo: null
